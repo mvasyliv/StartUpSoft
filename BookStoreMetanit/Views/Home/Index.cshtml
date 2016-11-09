@@ -1,0 +1,33 @@
+﻿@using System.Activities.Statements
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Book store</title>
+</head>
+<body>
+<div>
+    <h3>Pay Books</h3>
+    <table>
+        <tr>
+            <td><p>Name Book</p></td>
+            <td><p>Author</p></td>
+            <td><p>Price</p></td>
+            <td></td>
+        </tr>
+        @foreach (var b in ViewBag.Books)
+        {
+            <tr>
+                <td><p>@b.Name</p></td>
+                <td><p>@b.Author</p></td>
+                <td><p>@b.Price</p></td>
+                <td><p><a href="/Home/Buy/@b.Id">Pay</a></p></td>
+            </tr>
+            }
+    </table>
+</div>
+</body>
+</html>
