@@ -10,13 +10,16 @@ namespace Lesson2.Models
         public string Email { get; set; }
     }
     /// <summary>
-    /// Login url
+    /// Login url new branch vmv
     /// </summary>
     public class ExternalLoginListViewModel
     {
         public string ReturnUrl { get; set; }
     }
 
+    /// <summary>
+    ///  try use new branch vmv
+    /// </summary>
     public class SendCodeViewModel
     {
         public string SelectedProvider { get; set; }
