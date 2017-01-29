@@ -1,15 +1,13 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Lesson2HomeTask
+namespace TestSS
 {
     public class BundleConfig
     {
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
-            // bundles.Add(new ScriptBundle("~/bundles/myscripts").Include("~Scripts/MyScripts/*.js"));
-            
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 

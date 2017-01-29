@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lesson2.Models
+namespace TestSS.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
@@ -9,9 +9,7 @@ namespace Lesson2.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
-    /// <summary>
-    /// Login 
-    /// </summary>
+
     public class ExternalLoginListViewModel
     {
         public string ReturnUrl { get; set; }
