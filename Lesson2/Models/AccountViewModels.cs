@@ -10,7 +10,7 @@ namespace Lesson2.Models
         public string Email { get; set; }
     }
     /// <summary>
-    /// Login 
+    /// Login url
     /// </summary>
     public class ExternalLoginListViewModel
     {
